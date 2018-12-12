@@ -1,0 +1,77 @@
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    overflow: hidden;
+    max-width: 80%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+	width: 220px;
+	height: 220px;
+	border: 1px solid #123456;
+}
+h1{
+	font-family: 'Cuprum', sans-serif;
+	color: #123456;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+.bottom_card{
+	width: 220px;
+	height: 220px;
+    	
+}
+.name{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #123456;
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+}
+
+.specifications{
+	font-family: 'Cuprum', sans-serif;
+	color: #123456;
+	text-align: left;
+	font-size: 15px;
+}
+.price{
+	font-family: 'Cuprum', sans-serif;
+	color: #123456;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+ .price_constructor{
+ 	font-family: 'Cuprum', sans-serif;
+	color: #123456;
+	text-align: center;
+	font-size: 30px;
+ 	padding-top: 35px;
+ 	padding-bottom: 15px;
+ }
+
+.button{
+	font-family: 'Cuprum', sans-serif;
+	margin-left: 70px;
+	padding: 5px;
+    text-decoration:none; 
+    text-align:center; 
+    border:solid 1px #004F72;
+    border-radius: 4px;  
+    font-size: 25px;
+    font-weight:bold;
+    color:#E5FFFF;   
+    background-color:#3BA4C7; 
+}
+
