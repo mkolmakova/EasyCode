@@ -26,7 +26,7 @@ h1{
 }
 .bottom_card{
 	width: 220px;
-	height: 220px;
+	min-height: 220px;
     	
 }
 .name{
