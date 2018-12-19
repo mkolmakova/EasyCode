@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.row{
+	margin-top: 20px;
+	display: flex;
+}
+.row:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.col{
+	padding: 30px 10px 55px 10px;
+	width: 22%;
+    margin-right: 20px;
+	background-color: white;
+	border: 1px solid #e1e1e1;
+	position: relative;
+}
+img{
+    display: block;
+    margin: 30px auto 0 auto;
+}
+.product_name{
+	padding: 40px 0px 12px 10px;
+	font-size: 14px;
+}
+.product_price{
+	display: inline;
+	font-size: 18px;
+	padding: 20px 0px 0px 10px;
+	line-height: 2;
+}
+img.item4{
+    margin-top: 13px;
+}
+.label::before{
+	font-size: 14px;
+	color: #fff;
+	padding: 10px 35px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .13);
+}
+.label.new::before{
+	content: "Новинка";
+	background-color: #00a7b2;
+	padding: 8px 8px 8px 20px;
+}
+.label.sale::before{
+	content: "Скидка 15%";
+	background-color: #ff6700;
+	padding: 8px 10px 8px 15px;
+}
+.label.super_price::before{
+	content: "Супер цена!";
+	background-color:  #5a00ff;
+	padding: 8px 8px 8px 20px;
+}
+.btn_default{
+	float: right;
+	padding: 7px 12px;
+	font-size:  14px;
+	background-color: #742f00;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+.btn:hover{
+	background-color: #ff6700;
+}
+
+
+
+
