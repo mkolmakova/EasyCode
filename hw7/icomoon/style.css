@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hq2wuw');
+  src:  url('fonts/icomoon.eot?hq2wuw#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hq2wuw') format('truetype'),
+    url('fonts/icomoon.woff?hq2wuw') format('woff'),
+    url('fonts/icomoon.svg?hq2wuw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linegraph:before {
+  content: "\e039";
+}
+.icon-chat:before {
+  content: "\e049";
+}
+.icon-heart:before {
+  content: "\e901";
+}
+.icon-clock:before {
+  content: "\e902";
+}
+.icon-airballoon:before {
+  content: "\e903";
+}
+.icon-flag:before {
+  content: "\e900";
+}
+.icon-pencil:before {
+  content: "\e906";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-cogs:before {
+  content: "\e995";
+}
